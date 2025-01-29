@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Button } from "@shadcn/ui/button";
-import { Card, CardContent } from "@shadcn/ui/card";
-import { Slider } from "@shadcn/ui/slider";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@shadcn/ui/select";
+import { Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
+import Form from "react-bootstrap/Form";
+import { SketchPicker } from "react-color";
 import { SketchPicker } from "react-color";
 
 export default function KitchenDesigner() {
